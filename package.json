@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cy:run": "npx cypress run",
     "cy:open": "npx cypress open",
     "cy:full_run_stage": "npx cypress run --browser chrome --env url=stage",
     "cy:api_chrome_prod": "npx cypress run --spec cypress/e2e/api/** --browser chrome --env url=prod",
