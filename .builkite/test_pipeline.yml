@@ -1,6 +1,5 @@
 steps:
   - label: ":rocket: Cypress Tests"
-    key: "root"
     agents:
     queue: "test_pipeline"
     command:
