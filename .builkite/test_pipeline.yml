@@ -1,7 +1,5 @@
 steps:
   - label: ":rocket: Cypress Tests"
-    agents:
-    queue: "test_pipeline"
     command:
       - 'echo "test starting"'
       - "npm install"
