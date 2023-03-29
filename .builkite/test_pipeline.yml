@@ -3,7 +3,4 @@ steps:
   - label: ":rocket: Cypress Tests"
     key: "root"
   - run: cypress  
-    command:
-      - 'echo "test starting"'
-      - "npm install"
-      - "npm run pretest"
+    command: "npm run pretest"
