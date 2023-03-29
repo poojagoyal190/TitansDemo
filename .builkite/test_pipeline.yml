@@ -1,6 +1,3 @@
 steps:
-steps:
-  - label: ":rocket: Cypress Tests"
-    key: "root"
-  - run: cypress  
-    command: "npm run pretest"
+  - label: '🧪 Run cypress tests'
+    commands: 'npx cypress run --headless browser --chrome'
