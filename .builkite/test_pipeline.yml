@@ -1,5 +1,8 @@
 steps:
+steps:
   - label: ":rocket: Cypress Tests"
+    key: "root"
+  - run: cypress  
     command:
       - 'echo "test starting"'
       - "npm install"
